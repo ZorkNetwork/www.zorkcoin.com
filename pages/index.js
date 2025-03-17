@@ -29,10 +29,10 @@ export default function Home() {
         <h1 className="font-bold text-4xl mb-2">zorkcoin</h1>
         <p className="mb-6">An open-source cryptocurrency by and for Zork Network contributors.</p>
         <div className="flex gap-6 flex-wrap items-center justify-center mb-12">
-          <SocialIcon link="https://github.com/Zork-Underground" title="GitHub" icon={<RiGithubFill />} />
+          <SocialIcon link="https://github.com/ZorkNetwork" title="GitHub" icon={<RiGithubFill />} />
           <SocialIcon link="https://x.com/zorkcoin" title="Twitter" icon={<RiTwitterFill />} />
-          //<SocialIcon link="https://www.reddit.com/r/zorkcoin/" title="Reddit" icon={<RiRedditFill />} />
-          <SocialIcon link="https://discord.gg/pfSYzwBt" title="Discord" icon={<RiDiscordFill />} />
+
+          <SocialIcon link="https://discord.com/invite/gmpSzpqCDh" title="Discord" icon={<RiDiscordFill />} />
         </div>
       </main>
 

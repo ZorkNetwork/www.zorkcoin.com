@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-purple-dk text-purple-lt">
       <Head>
-        <title>zorkcoin | An open-source cryptocurrency by and for Zork Network contributors</title>
+        <title>zorkcoin | An open-source cryptocurrency native to the Zork Network</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

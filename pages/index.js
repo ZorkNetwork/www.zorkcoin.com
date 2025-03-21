@@ -20,6 +20,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1QT24YPSK"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-P1QT24YPSK');
+      </script>
+
       <header>
 
       </header>
@@ -27,7 +36,7 @@ export default function Home() {
       <main className="flex-1 flex flex-col items-center justify-center max-w-6xl mx-auto py-12 px-6">
         <Logo className="mb-2 h-24 w-24" />
         <h1 className="font-bold text-4xl mb-2">ZorkCoin</h1>
-        <p className="mb-6">An open-source cryptocurrency native to the Zork Network.</p>
+        <p className="mb-6">An open-source cryptocurrency native to the <a href="https://www.zork.network/">Zork Network</a>.</p>
         <div className="flex gap-6 flex-wrap items-center justify-center mb-12">
           <SocialIcon link="https://github.com/ZorkNetwork" title="GitHub" icon={<RiGithubFill />} />
           <SocialIcon link="https://x.com/zorkcoin" title="Twitter" icon={<RiTwitterFill />} />

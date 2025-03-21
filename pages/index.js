@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-purple-dk text-purple-lt">
       <Head>
-        <title>zorkcoin | An open-source cryptocurrency native to the Zork Network</title>
+        <title>ZorkCoin</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -26,8 +26,8 @@ export default function Home() {
 
       <main className="flex-1 flex flex-col items-center justify-center max-w-6xl mx-auto py-12 px-6">
         <Logo className="mb-2 h-24 w-24" />
-        <h1 className="font-bold text-4xl mb-2">zorkcoin</h1>
-        <p className="mb-6">An open-source cryptocurrency by and for Zork Network contributors.</p>
+        <h1 className="font-bold text-4xl mb-2">ZorkCoin</h1>
+        <p className="mb-6">An open-source cryptocurrency native to the Zork Network.</p>
         <div className="flex gap-6 flex-wrap items-center justify-center mb-12">
           <SocialIcon link="https://github.com/ZorkNetwork" title="GitHub" icon={<RiGithubFill />} />
           <SocialIcon link="https://x.com/zorkcoin" title="Twitter" icon={<RiTwitterFill />} />

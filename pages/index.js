@@ -20,15 +20,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1QT24YPSK"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-P1QT24YPSK');
-      </script>
-
       <header>
 
       </header>

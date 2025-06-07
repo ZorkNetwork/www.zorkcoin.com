@@ -26,13 +26,8 @@ export default function Home() {
 
       <main className="flex-1 flex flex-col items-center justify-center max-w-6xl mx-auto py-12 px-6">
         <Logo className="mb-2 h-24 w-24" />
-        <h1 className="font-bold text-4xl mb-2">ZorkCoin</h1>
-        <p className="mb-6">An open-source cryptocurrency native to the <a href="https://www.zork.network/">Zork Network</a>.</p>
-        <div className="flex gap-6 flex-wrap items-center justify-center mb-12">
-          <SocialIcon link="https://github.com/ZorkNetwork" title="GitHub" icon={<RiGithubFill />} />
-          <SocialIcon link="https://x.com/zorkcoin" title="Twitter" icon={<RiTwitterFill />} />
+        <h1 className="font-bold text-4xl mb-2">ZorkCoin - Is on hold until further notice.</h1>
 
-          <SocialIcon link="https://discord.com/invite/gmpSzpqCDh" title="Discord" icon={<RiDiscordFill />} />
         </div>
       </main>
 

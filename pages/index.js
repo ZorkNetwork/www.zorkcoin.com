@@ -28,7 +28,6 @@ export default function Home() {
         <Logo className="mb-2 h-24 w-24" />
         <h1 className="font-bold text-4xl mb-2">ZorkCoin - Is on hold until further notice.</h1>
 
-        </div>
       </main>
 
       <footer>

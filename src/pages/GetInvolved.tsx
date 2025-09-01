@@ -32,7 +32,6 @@ const GetInvolved = () => {
               </p>
               <div className="space-y-2">
                 <a href="https://discord.gg/Wxc8GcHaT7" className="block text-blue-400 hover:text-blue-300 transition-colors">Discord Community</a>
-                <a href="https://www.reddit.com/r/zorkcoin/" className="block text-blue-400 hover:text-blue-300 transition-colors">Reddit</a>
                 <a href="https://x.com/Zorkcoin" className="block text-blue-400 hover:text-blue-300 transition-colors">X (Twitter)</a>
               </div>
             </div>
